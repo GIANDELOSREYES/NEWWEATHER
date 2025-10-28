@@ -62,7 +62,8 @@
               "buildTarget": "weatherproject:build:production"
             },
             "development": {
-              "buildTarget": "weatherproject:build:development"
+              "buildTarget": "weatherproject:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
