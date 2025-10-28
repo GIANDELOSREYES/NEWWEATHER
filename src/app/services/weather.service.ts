@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class WeatherService {
 
   private APIkey = 'ff0a86e7d906a69c52115ad8ec9a6a64';
-  private APIUrl = 'http://api.weatherstack.com/current';
+  private APIUrl = 'https://api.weatherstack.com/current';
 
   constructor(private http: HttpClient) { }
   getWeather(city: string): Observable<any> {
